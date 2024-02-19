@@ -97,7 +97,7 @@ def show_home_page():
         data_url = base64.b64encode(contents).decode("utf-8")
         file_.close()
 
-        create_card("Information", f'<img src="data:image/gif;base64,{data_url}" alt="giphy gif" width="265px" height="250px">', "Access helpful information and resources.", "/Information")
+        create_card("Information", f'<img src="data:image/gif;base64,{data_url}" alt="giphy gif" width="265px" height="250px">', "Access helpful information and resources.", "https://sl.ern.ufs.ac.za/")
 
     st.write("---")
     
